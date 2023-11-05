@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Routes, Route, Link } from 'react-router-dom'
+import logo from './logo.svg'
+import './App.css'
+import { Section } from './Components/Section/Section.jsx'
+import { TextBlock } from './Components/Section/TextBlock.jsx'
+import Navbar from './Components/NavBar'
+import ArivalMobile from './Project/Pages/ArivalMobile'
+import ArivalWeb from './Project/Pages/ArivalWeb'
+import VTB from './Project/Pages/VTB'
+import { HomePage } from './Project/Pages/HomePage'
+import { Route, Routes } from 'react-router-dom'
+import './Project/Styles/Colors.css'
+import './Project/Styles/Spacing.css'
+import './Project/Styles/Typography.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/arival-web" element={<ArivalWeb />} />
+        <Route path="/arival-mobile" element={<ArivalMobile />} />
+        <Route path="/vtb-bank" element={<VTB />} />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

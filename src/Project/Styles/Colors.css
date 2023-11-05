@@ -1,0 +1,44 @@
+:root {
+  /* название переменных в CSS всегда содержит "--" и appercase. Appercase не обязателен; но это общепринятая практика для констант; значение которых не будет изменяться функционалом */
+
+  /* COLORS */
+
+  --SB-PRIMARY: #18171a;
+  --SB-SECONDARY: #f5f4f53b;
+
+  /*     "C"(Content) – приставка; обозначающая вариацию другого токена. Например: для "--C-PRIMARY" цвета; который используется для контента; есть "--ALT-C-PRIMARY"; который используется на темном фоне */
+
+  --C-PRIMARY: #f5f4f5;
+  --C-SECONDARY: #f5f4f53b;
+
+  --C-INFO: #027bff;
+  --C-DANGER: #cc2e25;
+  --C-WARNING: #cb7700;
+  --C-SUCCESS: #1e7735;
+
+  /*     "ALT"(Alternative) – приставка; обозначающая вариацию другого токена. Например: для "--C-PRIMARY" цвета; который используется для контента; есть "--C-ALT-PRIMARY"; который используется на темном фоне */
+
+  --С-ALT-PRIMARY: #ffffff;
+  --C-ALT-SECONDARY: #ffffff;
+  --C-ALT-TERTIARY: #ffffff;
+  --C-ALT-QUATERNARY: #ffffff;
+
+  /*     "A"(Accent) */
+
+  --A-PINK: #e780ba;
+  --A-BLUE: #83c3ff;
+  --A-YELLOW: #ffc46f;
+  --A-PURPLE: #bf84f4;
+  --A-GREEN: #8ae3ca;
+
+  /*     DV-divider */
+  --DV1: #03284c1a;
+  --DV2: #03284c1a;
+
+  /*     Dragbat */
+  --DRAGBAR-COLOR: #03284c1a;
+}
+
+body {
+  background-color: var(--SB-PRIMARY);
+}
