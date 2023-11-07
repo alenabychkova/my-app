@@ -12,6 +12,7 @@ import { Route, Routes } from 'react-router-dom'
 import './Project/Styles/Colors.css'
 import './Project/Styles/Spacing.css'
 import './Project/Styles/Typography.css'
+import './Project/Styles/Radius.css'
 
 function App() {
   return (

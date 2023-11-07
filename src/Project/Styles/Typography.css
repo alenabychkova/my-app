@@ -11,31 +11,33 @@ h1 {
 
 h2 {
   color: var(--C-PRIMARY);
-  font-family: Georgia;
-  font-size: 48px;
+  font-family: 'Bodoni Moda';
+  font-size: 56px;
   font-weight: 600;
   margin: 0;
-  line-height: 64px; /* 140.541% */
-  letter-spacing: 3px;
+  line-height: 68px;
+  -webkit-text-stroke: 1px white;
 }
 
 h3 {
-  color: #ffffff60;
-  font-family: Georgia;
+  color: #ffffff;
+  font-family: 'Bodoni Moda';
   font-size: 37px;
   font-weight: 400;
   margin: 0;
   line-height: 52px; /* 140.541% */
+  -webkit-text-stroke: 1px white;
 }
 
 h4 {
-  color: var(--A-PURPLE);
-  font-family: Georgia;
-  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Bodoni Moda';
+  font-size: 28px;
   font-weight: 600;
   margin: 0;
-  line-height: 38px; /* 140.541% */
+  line-height: 42px; /* 140.541% */
   letter-spacing: 1px;
+  -webkit-text-stroke: 1px white;
 }
 
 h5 {
@@ -119,14 +121,24 @@ h6 {
   line-height: 52px; /* 140.541% */
 }
 
-p {
-  color: #fff;
-  font-family: 'Inter';
-  font-size: 18px;
+.t {
+  color: var(--A-PURPLE);
+  font-family: Georgia;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   margin: 0;
-  line-height: 26px; /* 144.444% */
+  line-height: 32px; /* 144.444% */
+}
+
+p {
+  color: #ffffffaa;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 32px; /* 144.444% */
 }
 
 .callout {
@@ -138,3 +150,142 @@ p {
   margin: 0;
   line-height: 26px; /* 144.444% */
 }
+
+/* h1 {
+  font-family: 'Bodoni Moda', serif; 'Libre Bodoni'
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  line-height: 68px; 
+  -webkit-text-stroke: 1px white;
+}
+
+h2 {
+  color: var(--C-PRIMARY);
+  font-family: Georgia;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 64px; 
+  letter-spacing: 3px;
+}
+
+h3 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+h4 {
+  color: var(--A-PURPLE);
+  font-family: Georgia;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 38px; 
+  letter-spacing: 1px;
+}
+
+h5 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+h6 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+.sh1 {
+  font-family: 'Bodoni Moda', serif; 
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  line-height: 68px;
+  -webkit-text-stroke: 1px white;
+}
+
+.sh2 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+.sh3 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+.sh4 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+
+.sh5 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+.sh6 {
+  color: #ffffff60;
+  font-family: Georgia;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 52px; 
+}
+
+p {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 26px; 
+}
+
+.callout {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+} */

@@ -1,0 +1,10 @@
+:root {
+  /* название переменных в CSS всегда содержит "--" и appercase. Appercase не обязателен; но это общепринятая практика для констант; значение которых не будет изменяться функционалом */
+
+  /* Width Of Central Block */
+
+  --R1: 40px;
+
+  /* Width Of Central Block Container*/
+  --WCB-C: 1120px;
+}

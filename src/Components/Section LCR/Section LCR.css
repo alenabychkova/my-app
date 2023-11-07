@@ -1,0 +1,118 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-2C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block'
+      'left-block'
+      'right-block';
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-2C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block'
+      'right-block'
+      'left-block';
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-2C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block'
+      'left-block'
+      'right-block';
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-2C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block'
+      'right-block'
+      'left-block';
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-3C) var(--S-LCR-4C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block left-block'
+      'right-block .';
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'central-block right-block'
+      'left-block .';
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1100px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns: var(--S-LCR-1C) var(--S-LCR-3C) var(--S-LCR-4C);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block ';
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: auto var(--S-LCR-3C) var(--S-LCR-4C);
+    grid-template-rows: auto;
+    grid-template-areas: ' left-block central-block right-block';
+  }
+}
+
+/* -rb-lb lb-rb*/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1340px) {
+  .section-grid {
+    display: grid;
+    grid-template-columns:
+      var(--S-LCR-1C) var(--S-LCR-2C) var(--S-LCR-3C) var(--S-LCR-4C)
+      var(--S-LCR-5C);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'left-space left-block central-block right-block right-space'
+      'bottom-block bottom-block bottom-block bottom-block bottom-block';
+  }
+}
+
+.left-block {
+  grid-area: left-block;
+}
+
+.central-block {
+  grid-area: central-block;
+}
+
+.right-block {
+  grid-area: right-block;
+}
+
+.bottom-block {
+  grid-area: bottom-block;
+  justify-self: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

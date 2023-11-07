@@ -1,0 +1,25 @@
+.image-ie {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full {
+  max-width: 100vw;
+}
+
+.lcr {
+  max-width: calc(var(--S-LCR-2C) + var(--S-LCR-3C) + var(--S-LCR-4C));
+}
+
+.c {
+  max-width: var(--S-LCR-3C);
+}
+
+.v1 {
+  max-width: var(--WCB-C);
+}
+
+.r1 {
+  border-radius: var(--R1);
+}
