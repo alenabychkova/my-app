@@ -1,5 +1,284 @@
 :root {
-  /* название переменных в CSS всегда содержит "--" и appercase. Appercase не обязателен; но это общепринятая практика для констант; значение которых не будет изменяться функционалом */
+  /* SPACES */
+
+  /* S1 */
+
+  /*   S1 XL */
+
+  --S1-H--XL: 54px;
+
+  --S1-V-T--XL: 54px;
+  --S1-V-B--XL: 54px;
+
+  /*   S1 L */
+
+  --S1-H--L: 54px;
+
+  --S1-V-T--L: 54px;
+  --S1-V-B--L: 54px;
+
+  /*   S1 M */
+
+  --S1-H--M: 12px;
+
+  --S1-V-T--M: 54px;
+  --S1-V-B--M: 54px;
+
+  /*   S1 S */
+
+  --S1-H--S: 12px;
+
+  --S1-V-T--S: 54px;
+  --S1-V-B--S: 54px;
+
+  /*   S1 XS */
+
+  --S1-H--XS: 12px;
+
+  --S1-V-T--XS: 54px;
+  --S1-V-B--XS: 54px;
+
+  /* S2 */
+
+  /*   S2 XL */
+
+  --S2-H--XL: 8px;
+
+  --S2-V-T--XL: 89px;
+  --S2-V-B--XL: 8px;
+  --S2-V-T-C--XL: 54px;
+  --S2-V-B-C--XL: 54px;
+
+  /*   S2 L */
+
+  --S2-H--L: 8px;
+
+  --S2-V-T--L: 89px;
+  --S2-V-B--L: 8px;
+  --S2-V-T-C--L: 54px;
+  --S2-V-B-C--L: 54px;
+
+  /*   S2 M */
+
+  --S2-H--M: 8px;
+
+  --S2-V-T--M: 89px;
+  --S2-V-B--M: 8px;
+  --S2-V-T-C--M: 55px;
+  --S2-V-B-C--M: 55px;
+
+  /*   S2 S */
+
+  --S2-H--S: 8px;
+
+  --S2-V-T--S: 89px;
+  --S2-V-B--S: 8px;
+  --S2-V-T-C--S: 55px;
+  --S2-V-B-C--S: 55px;
+
+  /*   S2 XS */
+
+  --S2-H--XS: 8px;
+
+  --S2-V-T--XS: 89px;
+  --S2-V-B--XS: 0px;
+  --S2-V-T-C--XS: 55px;
+  --S2-V-B-C--XS: 55px;
+
+  /* S3 */
+
+  /*   S3 XL */
+
+  --S3-H--XL: 8px;
+
+  --S3-V-T--XL: 26px;
+  --S3-V-B--XL: 5px;
+  --S3-V-T-C--XL: 8px;
+  --S3-V-B-C--XL: 13px;
+
+  /*   S3 L */
+
+  --S3-H--L: 8px;
+
+  --S3-V-T--L: 26px;
+  --S3-V-B--L: 8px;
+  --S3-V-T-C--L: 8px;
+  --S3-V-B-C--L: 13px;
+
+  /*   S3 M */
+
+  --S3-H--M: 8px;
+
+  --S3-V-T--M: 8px;
+  --S3-V-B--M: 8px;
+  --S3-V-T-C--M: 8px;
+  --S3-V-B-C--M: 8px;
+
+  /*   S3 S */
+
+  --S3-H--S: 8px;
+
+  --S3-V-T--S: 8px;
+  --S3-V-B--S: 8px;
+  --S3-V-T-C--S: 8px;
+  --S3-V-B-C--S: 8px;
+
+  /*   S3 XS */
+
+  --S3-H--XS: 8px;
+
+  --S3-V-T--XS: 5px;
+  --S3-V-B--XS: 5px;
+  --S3-V-T-C--XS: 8px;
+  --S3-V-B-C--XS: 8px;
+
+  /* S4 */
+
+  --S4-H--XL: 20px;
+  --S4-H--L: 20px;
+  --S4-H--M: 20px;
+  --S4-H--S: 8px;
+  --S4-H--XS: 8px;
+
+  /* S5 */
+
+  /*   S5 XL */
+
+  --S5-H--XL: 8px;
+  --S5-V--XL: 8px;
+
+  /*   S5 L */
+
+  --S5-H--L: 8px;
+  --S5-V--L: 8px;
+
+  /*   S5 M */
+
+  --S5-H--M: 8px;
+  --S5-V--M: 8px;
+
+  /*   S5 S */
+
+  --S5-H--S: 8px;
+  --S5-V--S: 8px;
+
+  /*   S5 XS */
+
+  --S5-H--XS: 8px;
+  --S5-V--XS: 8px;
+
+  /* DIMENSIONS */
+
+  /* DEL */
+
+  --DEL--XL: auto;
+  --DEL--L: var(--S1-H--L);
+  --DEL--M: var(--S1-H--M);
+  --DEL--S: var(--S1-H--S);
+  --DEL--XS: var(--S1-H--XS);
+
+  /* DL */
+
+  --DL--XL: 288px;
+  --DL--L: auto;
+  /* --DL--M: 288px;
+  --DL--S: 288px;
+  --DL--XS: 288px; */
+
+  /* DC */
+
+  --DC--XL: 854px;
+  --DC--L: 854px;
+  --DC--M: auto;
+  --DC--S: auto;
+  --DC--XS: auto;
+
+  /* DEC - ширина сентрального блока вместе с текстовыми деталями и падингами иплоьзуется в секции */
+
+  /* --DEC--XL: calc(
+    var(--DTD--XL) + var(--S4-H--XL) + var(--DC--XL) + var(--S4-H--XL) +
+      var(--DTD--XL)
+  );
+  --DEC--L: calc(
+    var(--DTD--L) + var(--S4-H--L) + var(--DC--L) + var(--S4-H--L) +
+      var(--DTD--L)
+  );
+  --DEC--M: calc(
+    var(--DTD--M) + var(--S4-H--M) + var(--DC--M) + var(--S4-H--M) +
+      var(--DTD--M)
+  );
+  --DEC--S: calc(
+    var(--DTD--S) + var(--S4-H--S) + var(--DC--S) + var(--S4-H--S) +
+      var(--DTD--S)
+  );
+  --DEC--XS: calc(
+    var(--DTD--XS) + var(--S4-H--XS) + var(--DC--XS) + var(--S4-H--XS) +
+      var(--DTD--XS)
+  ); */
+
+  /* DR */
+
+  --DR--XL: 288px;
+  --DR--L: auto;
+  /* --DR--M: 288px;
+  --DR--S: 288px;
+  --DR--XS: 288px; */
+
+  /* DER */
+
+  --DER--XL: auto;
+  --DER--L: var(--S1-H--L);
+  --DER--M: var(--S1-H--M);
+  --DER--S: var(--S1-H--S);
+  --DER--XS: var(--S1-H--XS);
+
+  /* DD */
+
+  --DD--XL: 1220px;
+  --DD--L: 1220px;
+  --DD--M: var(--DEC--M);
+  --DD--S: var(--DEC--S);
+  --DD--XS: var(--DEC--XS);
+
+  /* DTD */
+
+  --DTD--XL: 42px;
+  --DTD--L: 42px;
+  --DTD--M: 16px;
+  --DTD--S: 16px;
+  --DTD--XS: 16px;
+
+  /* BORDER RADIUS */
+
+  --R1--XL: 32px;
+  --R1--L: 30px;
+  --R1--M: 25px;
+  --R1--S: 20px;
+  --R1--XS: 10px;
+
+  /* BREAK POINTS */
+
+  --BR-L-XL: 1340px;
+  --BR-M-L: 992px;
+  --BR-S-M: 768px;
+  --BR-XS-S: 600px;
+
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+  /* LEGACY */
+
+  /* назван
+  ие переменных в CSS всегда содержит "--" и appercase. Appercase не обязателен; но это общепринятая практика для констант; значение которых не будет изменяться функционалом */
 
   /* Width Of Central Block */
 
@@ -21,4 +300,29 @@
   --WCB-C: 1120px;
 
   --WCB-C: 1120px;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  gap: -10px;
+} */
+/* Extra small devices (600px) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (600px) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (768px) */
+@media only screen and (min-width: 800px) {
+}
+
+/* Large devices (992px)*/
+@media only screen and (min-width: 1100px) {
+}
+
+/* Extra large devices (1200px)*/
+@media only screen and (min-width: 1450px) {
 }

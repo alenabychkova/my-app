@@ -14,16 +14,16 @@ export const ImageElement = (props) => {
   //       ? 'var(--WCB-C)'
   //       : '100vw'
 
-  const maxWidth =
-    props.maxWidth === 'full'
-      ? '100vw'
-      : props.maxWidth === 'lcr'
-      ? 'calc(var(--S-LCR-2C) + var(--S-LCR-3C) + var(--S-LCR-4C))'
-      : props.maxWidth === 'c'
-      ? 'var(--S-LCR-3C)'
-      : props.maxWidth === 'v1'
-      ? 'var(--WCB-C)'
-      : '100vw'
+  //   const maxWidth =
+  //     props.maxWidth === 'full'
+  //       ? '100vw'
+  //       : props.maxWidth === 'lcr'
+  //       ? 'calc(var(--S-LCR-2C) + var(--S-LCR-3C) + var(--S-LCR-4C))'
+  //       : props.maxWidth === 'c'
+  //       ? 'var(--S-LCR-3C)'
+  //       : props.maxWidth === 'd'
+  //       ? 'var(--WCB-C)'
+  //       : 'd'
 
   //   const imageStyle = {
   //     maxWidth: maxWidth,
@@ -32,7 +32,9 @@ export const ImageElement = (props) => {
   return (
     <img
       //   style={imageStyle}
-      className={'image-ie' + ' ' + props.maxWidth + ' ' + props.borderRadius}
+      className={
+        'image-element' + ' ' + props.maxWidth + ' ' + props.borderRadius
+      }
       src={props.image}
       alt="image"
     />

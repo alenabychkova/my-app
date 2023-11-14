@@ -1,0 +1,91 @@
+/* Extra small devices (600px) */
+@media only screen and (max-width: 600px) {
+  .text-element {
+    padding-left: var(--S3-H--XS);
+    padding-right: var(--S3-H--XS);
+    padding-top: var(--S3-V-T--XS);
+    padding-bottom: var(--S3-V-B--XS);
+    display: grid;
+    column-gap: var(--S4-H--XS);
+    grid-template-columns: var(--DTD--XS) auto var(--DTD--XS);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block';
+  }
+}
+
+/* Small devices (600px) */
+@media only screen and (min-width: 600px) {
+  .text-element {
+    padding-left: var(--S3-H--S);
+    padding-right: var(--S3-H--S);
+    padding-top: var(--S3-V-T--S);
+    padding-bottom: var(--S3-V-B--S);
+    display: grid;
+    column-gap: var(--S4-H--S);
+    grid-template-columns: var(--DTD--S) auto var(--DTD--S);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block';
+  }
+}
+
+/* Medium devices (768px) */
+@media only screen and (min-width: 800px) {
+  .text-element {
+    padding-left: var(--S3-H--M);
+    padding-right: var(--S3-H--M);
+    padding-top: var(--S3-V-T--ML);
+    padding-bottom: var(--S3-V-B--M);
+    display: grid;
+    column-gap: var(--S4-H--M);
+    grid-template-columns: var(--DTD--M) auto var(--DTD--M);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block';
+  }
+}
+
+/* Large devices (992px)*/
+@media only screen and (min-width: 1100px) {
+  .text-element {
+    padding-left: var(--S3-H--L);
+    padding-right: var(--S3-H--L);
+    padding-top: var(--S3-V-T--L);
+    padding-bottom: var(--S3-V-B--L);
+    display: grid;
+    column-gap: var(--S4-H--L);
+    grid-template-columns: var(--DTD--L) auto var(--DTD--L);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block';
+  }
+}
+
+/* Extra large devices (1200px)*/
+@media only screen and (min-width: 1450px) {
+  .text-element {
+    padding-left: var(--S3-H--XL);
+    padding-right: var(--S3-H--XL);
+    padding-top: var(--S3-V-T--XL);
+    padding-bottom: var(--S3-V-B--XL);
+    display: grid;
+    column-gap: var(--S4-H--XL);
+    grid-template-columns: var(--DTD--XL) auto var(--DTD--XL);
+    grid-template-rows: auto;
+    grid-template-areas: 'left-block central-block right-block';
+  }
+}
+
+.text-element-left-block {
+  grid-area: left-block;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.text-element-central-block {
+  grid-area: central-block;
+}
+
+.text-element-right-block {
+  grid-area: right-block;
+}

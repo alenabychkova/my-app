@@ -1,0 +1,23 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_1005_31279)">
+<path d="M0 26C0 11.6406 11.6406 0 26 0C40.3594 0 52 11.6406 52 26C52 40.3594 40.3594 52 26 52C11.6406 52 0 40.3594 0 26Z" fill="url(#paint0_radial_1005_31279)" fill-opacity="0.12"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 26C0.5 40.0833 11.9167 51.5 26 51.5C40.0833 51.5 51.5 40.0833 51.5 26C51.5 11.9167 40.0833 0.5 26 0.5C11.9167 0.5 0.5 11.9167 0.5 26ZM26 0C11.6406 0 0 11.6406 0 26C0 40.3594 11.6406 52 26 52C40.3594 52 52 40.3594 52 26C52 11.6406 40.3594 0 26 0Z" fill="#8FB1ED" fill-opacity="0.16"/>
+<path d="M28.2695 15.7266V31.9717C28.2695 33.1924 28.3232 33.9736 28.4307 34.3154C28.5381 34.6475 28.7627 34.9209 29.1045 35.1357C29.4463 35.3506 29.9932 35.458 30.7451 35.458H31.1992V36H20.7402V35.458H21.2676C22.1172 35.458 22.7227 35.3604 23.084 35.165C23.4453 34.9697 23.6895 34.7012 23.8164 34.3594C23.9434 34.0176 24.0068 33.2217 24.0068 31.9717V21.6738C24.0068 20.7559 23.9629 20.1846 23.875 19.96C23.7871 19.7256 23.6211 19.5303 23.377 19.374C23.1426 19.208 22.8691 19.125 22.5566 19.125C22.0586 19.125 21.4531 19.2812 20.7402 19.5938L20.4766 19.0664L27.7861 15.7266H28.2695Z" fill="#8FB1ED"/>
+<defs>
+<filter id="filter0_i_1005_31279" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="6" dy="6"/>
+<feGaussianBlur stdDeviation="4.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.560784 0 0 0 0 0.694118 0 0 0 0 0.929412 0 0 0 0.09 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_1005_31279"/>
+</filter>
+<radialGradient id="paint0_radial_1005_31279" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26 26) rotate(105.313) scale(43.546)">
+<stop stop-color="#8FB1ED"/>
+<stop offset="1" stop-color="#1B222F"/>
+</radialGradient>
+</defs>
+</svg>

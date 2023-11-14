@@ -1,9 +1,8 @@
 // import { Routes, Route, Link } from 'react-router-dom'
 import logo from './logo.svg'
 import './App.css'
-import { Section } from './Components/Section/Section.jsx'
-import { TextBlock } from './Components/Section/TextBlock.jsx'
-import Navbar from './Components/NavBar'
+
+import Navbar from './Components/NavBar/NavBar'
 import ArivalMobile from './Project/Pages/ArivalMobile'
 import ArivalWeb from './Project/Pages/ArivalWeb'
 import VTB from './Project/Pages/VTB'
@@ -17,7 +16,7 @@ import './Project/Styles/Radius.css'
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/arival-web" element={<ArivalWeb />} />

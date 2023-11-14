@@ -6,9 +6,9 @@ import React, {
   useContext,
   useLayoutEffect,
 } from 'react'
-import './Section LCR.css'
+import './SectionLCRB.css'
 
-export const SectionLCR = (props) => {
+export const SectionLCRB = (props) => {
   return (
     <section className="section-grid">
       <div className="left-block">{props.leftBlock}</div>

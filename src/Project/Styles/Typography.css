@@ -1,53 +1,60 @@
 h1 {
   font-family: 'Bodoni Moda', serif; /* 'Libre Bodoni' */
   color: #fff;
-  font-size: 56px;
+  font-size: 92px;
   font-style: normal;
   font-weight: 600;
-  margin: 0;
-  line-height: 68px; /* 121.429% */
-  -webkit-text-stroke: 1px white;
+  margin-top: 1px;
+  margin-bottom: -1px;
+  line-height: 110px; /* 121.429% */
+  -webkit-text-stroke: 1px #fff;
 }
 
 h2 {
-  color: var(--C-PRIMARY);
+  color: #fff;
   font-family: 'Bodoni Moda';
   font-size: 56px;
   font-weight: 600;
-  margin: 0;
+  margin-top: 1px;
+  margin-bottom: -1px;
   line-height: 68px;
-  -webkit-text-stroke: 1px white;
+  letter-spacing: 0.5px;
+  -webkit-text-stroke: 1px #fff;
 }
 
 h3 {
-  color: #ffffff;
+  color: #caccd0;
   font-family: 'Bodoni Moda';
-  font-size: 37px;
+  font-size: 35px;
   font-weight: 400;
-  margin: 0;
+  margin-top: -5px;
+  margin-bottom: -5px;
   line-height: 52px; /* 140.541% */
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px #caccd0;
 }
 
 h4 {
-  color: #ffffff;
+  color: var(--A-PURPLE);
   font-family: 'Bodoni Moda';
   font-size: 28px;
   font-weight: 600;
   margin: 0;
   line-height: 42px; /* 140.541% */
   letter-spacing: 1px;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px var(--A-PURPLE);
 }
 
 h5 {
-  color: #ffffff60;
+  color: #f7faff;
   font-family: Georgia;
-  font-size: 37px;
+  font-size: 23px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
-  line-height: 52px; /* 140.541% */
+  letter-spacing: 0.5px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  line-height: 28px; /* 140.541% */
 }
 
 h6 {
@@ -59,6 +66,98 @@ h6 {
   margin: 0;
   line-height: 52px; /* 140.541% */
 }
+
+.eyebrow {
+  color: var(--A-PURPLE);
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 32px; /* 144.444% */
+}
+
+p {
+  color: #ffffffaa;
+  font-family: Georgia;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  line-height: 32px; /* 144.444% */
+}
+
+.caption {
+  color: #ffffffaa;
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 32px; /* 144.444% */
+}
+
+.callout {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  line-height: 26px; /* 144.444% */
+}
+
+strong {
+  color: #be8fed;
+  font-family: Georgia;
+  font-size: 23px;
+
+  font-weight: 400;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  /* letter-spacing: 0.5px;
+  -webkit-text-stroke: 0.3px #be8fed; */
+  line-height: 32px; /* 144.444% */
+}
+
+a {
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  line-height: 32px; /* 144.444% */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ed8fc4;
+  font-family: Georgia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  line-height: 32px; /* 144.444% */
+  text-decoration: none;
+}
+
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
+/* LEGACY */
 
 .sh1 {
   font-family: 'Bodoni Moda', serif; /* 'Libre Bodoni' */
@@ -121,35 +220,7 @@ h6 {
   line-height: 52px; /* 140.541% */
 }
 
-.t {
-  color: var(--A-PURPLE);
-  font-family: Georgia;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-  line-height: 32px; /* 144.444% */
-}
-
-p {
-  color: #ffffffaa;
-  font-family: Georgia;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-  line-height: 32px; /* 144.444% */
-}
-
-.callout {
-  color: #fff;
-  font-family: 'Inter';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  margin: 0;
-  line-height: 26px; /* 144.444% */
-}
+/*  */
 
 /* h1 {
   font-family: 'Bodoni Moda', serif; 'Libre Bodoni'
