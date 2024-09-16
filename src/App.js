@@ -12,8 +12,10 @@ import './Project/Styles/Colors.css'
 import './Project/Styles/Spacing.css'
 import './Project/Styles/Typography.css'
 import './Project/Styles/Radius.css'
+import useScrollToTop from './UseScrollToTop'
 
 function App() {
+  useScrollToTop()
   return (
     <div className="App">
       {/* <Navbar /> */}

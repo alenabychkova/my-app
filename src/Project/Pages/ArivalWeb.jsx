@@ -42,7 +42,7 @@ import transactions_new from '../../Project/Images//Web project/transactions_new
 import analytics_old from '../../Project/Images//Web project/analytics_old.png'
 import analytics_new from '../../Project/Images//Web project/analytics_new.png'
 
-import devices_results from '../../Project/Images//Web project/devices_results 2.png'
+import devices_results from '../../Project/Images//Web project/devices_results.png'
 
 import needs_pains_tags from '../../Project/Images/Web project/needs_pains_tags.svg'
 
@@ -88,7 +88,7 @@ const ArivalWeb = () => {
             textElementType="p"
             text={
               <>
-                <strong>Context:</strong> Arrival Bank is a digital bank for
+                <strong>Context:</strong> Arival Bank is a digital bank for
                 global businesses and startups across the world. When I joined
                 the company, the prior web app version had recently been
                 launched. The CEOs were dissatisfied with the app’s quality, and
@@ -536,7 +536,7 @@ const ArivalWeb = () => {
                 <strong>UI kit and style guide finalization:</strong> I aimed
                 for user feelings of trust, control, and clarity in our app,
                 while also striving for an unconventional, boundary-pushing
-                interface that aligns with Arrival’s brand. I chose moderately
+                interface that aligns with Arival’s brand. I chose moderately
                 soft forms, blueish backgrounds, fonts, and primary colors for
                 a sense of calm. Gradients and illustrations (by another
                 designer) were added for the desired 'abnormal' touch.

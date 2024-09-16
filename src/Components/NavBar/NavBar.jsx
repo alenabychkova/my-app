@@ -9,8 +9,8 @@ export default function Navbar() {
         Alena Byckova
       </Link>
       <div className="nav-bar-ul">
-        <CustomLink to="/arival-web">Arrival Web</CustomLink>
-        <CustomLink to="/arival-mobile">Arrival Mobile</CustomLink>
+        <CustomLink to="/arival-web">Arival Web</CustomLink>
+        <CustomLink to="/arival-mobile">Arival Mobile</CustomLink>
         <CustomLink to="/vtb-bank">VTB Bank</CustomLink>
         {/* <li className="nav-bar-li">
           <Link to="/vtb-bank" className="nav-bar-a">

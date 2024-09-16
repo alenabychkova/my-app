@@ -37,6 +37,7 @@ export const ImageElement = (props) => {
       }
       src={props.image}
       alt="image"
+      loading="lazy"
     />
   )
 }

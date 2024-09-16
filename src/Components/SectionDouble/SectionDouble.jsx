@@ -9,14 +9,22 @@ export const SectionDouble = (props) => {
         <h1>Alena Bychkova</h1>
         <p>
           {/* I deliver sustainable and meaningful design solutions for 5+ years. */}
-          Crafting UX/UI <span style={{ color: '#f8b250' }}> • </span> 6+ years
+          Crafting UX/UI <span style={{ color: '' }}> • </span> 6+ years in the
+          field <span style={{ color: '' }}> • </span> Based in Tbilisi{' '}
+          <span style={{ color: '' }}> • </span> 8 iOS apps{'  '}
+          <span style={{ color: '' }}> • </span> 7 Android apps{'  '}
+          <span style={{ color: '' }}> • </span> 3 Web apps{'  '}
+          <span style={{ color: '' }}> • </span> 2 Websites{'  '}
+          <span style={{ color: '' }}> • </span> 4 B2B projects{'  '}
+          <span style={{ color: '' }}> • </span> 6 B2C projects{'  '}
+          {/* Crafting UX/UI <span style={{ color: '#f8b250' }}> • </span> 6+ years
           in the field <span style={{ color: '#da6cd5' }}> • </span> Based in
           Tbilisi <span style={{ color: '#1f84ff' }}> • </span> 8 iOS apps{'  '}
           <span style={{ color: '#d172bf' }}> • </span> 7 Android apps{'  '}
           <span style={{ color: '#8d2aff' }}> • </span> 3 Web apps{'  '}
           <span style={{ color: '#2ac97c' }}> • </span> 2 Websites{'  '}
           <span style={{ color: '#8fb1ed' }}> • </span> 4 B2B projects{'  '}
-          <span style={{ color: '#00efe1' }}> • </span> 6 B2C projects{'  '}
+          <span style={{ color: '#00efe1' }}> • </span> 6 B2C projects{'  '} */}
         </p>
         <div className="links">
           <a

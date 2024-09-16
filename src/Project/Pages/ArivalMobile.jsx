@@ -68,7 +68,7 @@ const ArivalMobile = () => {
             textElementType="p"
             text={
               <>
-                <strong>Opportunity:</strong> One of the top needs for Arrival
+                <strong>Opportunity:</strong> One of the top needs for Arival
                 clients was to have a mobile application to be able to access
                 their finances on the go.
               </>
@@ -271,7 +271,7 @@ const ArivalMobile = () => {
           <TextElement
             textElementType="p"
             text="In terms of visual design, my aim was to evoke user feelings of trust, control, and clarity within our app. Simultaneously, I strived
-          to develop an innovative and boundary-pushing interface that aligns seamlessly with Arrival’s brand."
+          to develop an innovative and boundary-pushing interface that aligns seamlessly with Arival’s brand."
           />,
           <TextElement
             textElementType="p"
