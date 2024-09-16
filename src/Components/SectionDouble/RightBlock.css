@@ -32,6 +32,23 @@
   }
 }
 
+.arrow-icon {
+  position: relative; /* Ensure the element can move relative to its original position */
+  animation: moveLeftRight 1.5s ease-in-out infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0); /* Start at the original position */
+  }
+  50% {
+    transform: translateX(5px); /* Move 100px to the right */
+  }
+  100% {
+    transform: translateX(0); /* Move back to the original position */
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .right-block-component {
     height: 60vh;

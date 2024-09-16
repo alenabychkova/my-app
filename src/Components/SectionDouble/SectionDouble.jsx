@@ -13,7 +13,7 @@ export const SectionDouble = (props) => {
           field <span style={{ color: '' }}> • </span> Based in Tbilisi{' '}
           <span style={{ color: '' }}> • </span> 8 iOS apps{'  '}
           <span style={{ color: '' }}> • </span> 7 Android apps{'  '}
-          <span style={{ color: '' }}> • </span> 3 Web apps{'  '}
+          <span style={{ color: '' }}> • </span> 4 Web apps{'  '}
           <span style={{ color: '' }}> • </span> 2 Websites{'  '}
           <span style={{ color: '' }}> • </span> 4 B2B projects{'  '}
           <span style={{ color: '' }}> • </span> 6 B2C projects{'  '}
