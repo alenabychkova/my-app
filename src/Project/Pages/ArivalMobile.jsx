@@ -102,7 +102,7 @@ const ArivalMobile = () => {
             borderRadius="r1"
             backgroundImage={bg_process_mobile}
             image={steps_mobile}
-            overflowImage={PlaneSEPA2}
+            // overflowImage={PlaneSEPA2}
           />,
         ]}
       />

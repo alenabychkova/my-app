@@ -167,7 +167,7 @@ const ArivalWeb = () => {
             borderRadius="r1"
             backgroundImage={process_blurred_bg}
             image={process_steps}
-            overflowImage={puzzle}
+            // overflowImage={puzzle}
           />,
         ]}
       />
