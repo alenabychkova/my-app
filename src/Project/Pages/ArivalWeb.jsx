@@ -159,7 +159,7 @@ const ArivalWeb = () => {
         ]}
         bottomBlock={[]}
       />
-      <SectionLCRB
+      {/* <SectionLCRB
         centerBlock={[<TextElement textElementType="h2" text="Process" />]}
         bottomBlock={[
           <ImageBOElement
@@ -170,7 +170,7 @@ const ArivalWeb = () => {
             // overflowImage={puzzle}
           />,
         ]}
-      />
+      /> */}
       <SectionLCRB
         centerBlock={[
           <TextElement

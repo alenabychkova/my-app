@@ -94,7 +94,7 @@ const ArivalMobile = () => {
           />,
         ]}
       />
-      <SectionLCRB
+      {/* <SectionLCRB
         centerBlock={[<TextElement textElementType="h2" text="Process" />]}
         bottomBlock={[
           <ImageBOElement
@@ -105,7 +105,7 @@ const ArivalMobile = () => {
             // overflowImage={PlaneSEPA2}
           />,
         ]}
-      />
+      /> */}
       ,
       <SectionLCRB
         centerBlock={[
