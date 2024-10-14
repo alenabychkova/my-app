@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.466e438a.css",
-    "main.js": "/my-app/static/js/main.87b69bfa.js",
+    "main.js": "/my-app/static/js/main.d445b365.js",
     "static/js/787.d4aba7ab.chunk.js": "/my-app/static/js/787.d4aba7ab.chunk.js",
     "static/media/transactions_new.png": "/my-app/static/media/transactions_new.eda728607d5984e7de4a.png",
     "static/media/Plane_SEPA.png": "/my-app/static/media/Plane_SEPA.68f7c2bf24aa5a0e62f3.png",
@@ -75,11 +75,11 @@
     "static/media/circle.svg": "/my-app/static/media/circle.e9599c0cd2665640b1c56d607561d96c.svg",
     "static/media/bg_black.svg": "/my-app/static/media/bg_black.c5c37c7572804e0364b332d77ee01742.svg",
     "main.466e438a.css.map": "/my-app/static/css/main.466e438a.css.map",
-    "main.87b69bfa.js.map": "/my-app/static/js/main.87b69bfa.js.map",
+    "main.d445b365.js.map": "/my-app/static/js/main.d445b365.js.map",
     "787.d4aba7ab.chunk.js.map": "/my-app/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.466e438a.css",
-    "static/js/main.87b69bfa.js"
+    "static/js/main.d445b365.js"
   ]
 }
